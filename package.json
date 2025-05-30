@@ -1,0 +1,66 @@
+{
+  "homepage": "https://UrvashiKVaishnav97.github.io/dashboard-task-react-WFM",
+  "name": "material-tailwind-dashboard-react",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@heroicons/react": "2.0.18",
+    "@material-tailwind/react": "2.1.4",
+    "apexcharts": "3.44.0",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-apexcharts": "1.4.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.17.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.31",
+    "@types/react-dom": "18.2.14",
+    "@vitejs/plugin-react": "4.1.0",
+    "autoprefixer": "10.4.16",
+    "gh-pages": "^6.3.0",
+    "postcss": "8.4.31",
+    "prettier": "3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.6",
+    "tailwindcss": "3.3.4",
+    "vite": "^4.5.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": true,
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
+  "license": "MIT",
+  "author": "Material Tailwind",
+  "description": "Material Tailwind Dashboard React is a free admin dashboard template built with Material Tailwind and React.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo-url/material-tailwind-dashboard-react"
+  }
+}
