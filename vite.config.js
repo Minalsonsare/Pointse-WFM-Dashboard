@@ -8,6 +8,8 @@ export default defineConfig({
     alias: [{ find: "@", replacement: "/src" }],
   },
   server: {
+    host: true, // Enable host binding
+    port: 5173, // Specify the port
     allowedHosts: ["pointse-wfm-dashboard.onrender.com"], // Add the allowed host
   },
 });
